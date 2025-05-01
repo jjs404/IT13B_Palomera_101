@@ -65,7 +65,7 @@ public class LoginGUI_FileHandling {
     }
 
     public static boolean authenticateUser(String username, String encryptedPassword) {
-        try (BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\Admin\\Documents\\NetBeansProjects\\Balendez.txt"))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\Palomera\\OneDrive\\Desktop\\Login_GUI_PALOMERA.txt"))) {
             String line;
             while ((line = reader.readLine()) != null) {
                 String[] parts = line.split(",");
