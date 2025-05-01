@@ -77,5 +77,5 @@ public class PRACTICE_FILEHANDLING {
         }
         return new String(chars);
     }
-    
+        
 }
